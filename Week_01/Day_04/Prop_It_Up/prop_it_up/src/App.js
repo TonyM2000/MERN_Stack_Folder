@@ -1,13 +1,11 @@
 import './App.css';
-import MyNewComponent from './MyNewComponent.js';
+import MyNewComponent from './components/MyNewComponent.js';
 
 function App() {
   return (
     <div className="App">
-      <MyNewComponent firstName="Anthony" lastName="Marsee" age= {23} haircolor="Brown" />
-      <MyNewComponent firstName="Anthony" lastName="Marsee" age= {18} haircolor="Brown" />
-      <MyNewComponent firstName="Anthony" lastName="Marsee" age= {15} haircolor="Brown" />
-      <MyNewComponent firstName="Anthony" lastName="Marsee" age= {37} haircolor="Brown" />
+      <MyNewComponent firstName="Jane" lastName="Doe" age= {45} haircolor="Black" />
+      <MyNewComponent firstName="John" lastName="Smith" age= {88} haircolor="Brown" />
     </div>
     
   );

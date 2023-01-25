@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 
 class MyNewComponent extends Component {
     constructor(props) {
@@ -9,7 +8,7 @@ class MyNewComponent extends Component {
         };
     }
     birthday = (e) => {
-        console.log("test")
+        //console.log("test") <Inserting this shows if the function is working through inspect element
         this.setState({
             age:this.state.age+1
         })
